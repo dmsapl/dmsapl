@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+@import url(//db.onlinewebfonts.com/c/6ab539c6fc2b21ff0b149b3d06d7f97c?family=Minecraft);
+/*@font-face {font-family: "Minecraft"; src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot"); src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff") format("woff"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.svg#Minecraft") format("svg"); }*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: url(FILES/bca.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.titles
+{
+    font-size: 100px;
+    color: #fff;
+
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+    line-height: 150px;
+    letter-spacing: 1px;
+}
+.box
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    background: #060c21;
+    transition: 0.5s;
+    
+}
+.box:hover
+{
+   height: 400px; 
+}
+.box .imgBx
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.box .imgBx img
+{
+    max-width: 100%;
+    opacity: 0.1;
+    transition: 0.5s;
+
+}
+.box:hover .imgBx img
+{
+   opacity: 1; 
+}
+.box::before
+{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+}
+.box:after
+{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+.box:before,
+.box:after
+{
+    background: linear-gradient(235deg,#ffffff,#010615,#ffb759)
+}
+.box:nth-child(2):before,
+.box:nth-child(2):after
+{
+    background: linear-gradient(235deg,#ff005e,#010615,#fbff00)
+}
+.box:nth-child(3):before,
+.box:nth-child(3):after
+{
+    background: linear-gradient(235deg,#ff005e,#010615,#fbff00)
+}
+
+.box:nth-child(5):before,
+.box:nth-child(5):after
+{
+    background: linear-gradient(235deg,#2cff6c,#010615,#ff1b6f)
+}
+
+.box:nth-child(7):before,
+.box:nth-child(7):after
+{
+    background: linear-gradient(235deg,#ff87ff,#010615,#6ab7ff)
+}
+
+.box:nth-child(9):before,
+.box:nth-child(9):after
+{
+    background: linear-gradient(235deg,#ffffff,#010615,#ffb759)
+}
+.box:nth-child(10):before,
+.box:nth-child(10):after
+{
+    background: linear-gradient(235deg,#ffffff,#010615,#ffb759)
+}
+.box:nth-child(11):before,
+.box:nth-child(11):after
+{
+    background: linear-gradient(235deg,#ffffff,#010615,#ffb759)
+}
+.box:nth-child(13):before,
+.box:nth-child(13):after
+{
+    background: linear-gradient(235deg,#7b0ca7,#010615,#3532ff)
+}
+.box:nth-child(14):before,
+.box:nth-child(14):after
+{
+    background: linear-gradient(235deg,#7b0ca7,#010615,#3532ff)
+}
+.box:nth-child(15):before,
+.box:nth-child(15):after
+{
+    background: linear-gradient(235deg,#7b0ca7,#010615,#3532ff)
+}
+.box:nth-child(16):before,
+.box:nth-child(16):after
+{
+    background: linear-gradient(235deg,#7b0ca7,#010615,#3532ff)
+}
+.box:nth-child(17):before,
+.box:nth-child(17):after
+{
+    background: linear-gradient(235deg,#7b0ca7,#010615,#3532ff)
+}
+.box:nth-child(18):before,
+.box:nth-child(18):after
+{
+    background: linear-gradient(235deg,#7b0ca7,#010615,#3532ff)
+}
+.box:nth-child(19):before,
+.box:nth-child(19):after
+{
+    background: linear-gradient(235deg,#7b0ca7,#010615,#3532ff)
+}
+.box:nth-child(20):before,
+.box:nth-child(20):after
+{
+    background: linear-gradient(235deg,#7b0ca7,#010615,#3532ff)
+}
+.box:nth-child(21):before,
+.box:nth-child(21):after
+{
+    background: linear-gradient(235deg,#7b0ca7,#010615,#3532ff)
+}
+.box:nth-child(23):before,
+.box:nth-child(23):after
+{
+    background: linear-gradient(235deg,#ff5e00,#010615,#0300c7)
+}
+.box:nth-child(24):before,
+.box:nth-child(24):after
+{
+    background: linear-gradient(235deg,#ff5e00,#010615,#0300c7)
+}
+.box:nth-child(25):before,
+.box:nth-child(25):after
+{
+    background: linear-gradient(235deg,#ff5e00,#010615,#0300c7)
+}
+.box:nth-child(26):before,
+.box:nth-child(26):after
+{
+    background: linear-gradient(235deg,#ff5e00,#010615,#0300c7)
+}
+.box:nth-child(28):before,
+.box:nth-child(28):after
+{
+    background: linear-gradient(235deg,#66ff00,#010615,#c000b6)
+}
+.box:nth-child(29):before,
+.box:nth-child(29):after
+{
+    background: linear-gradient(235deg,#66ff00,#010615,#c000b6)
+}
+.box:nth-child(30):before,
+.box:nth-child(30):after
+{
+    background: linear-gradient(235deg,#66ff00,#010615,#c000b6)
+}
+.box:nth-child(31):before,
+.box:nth-child(31):after
+{
+    background: linear-gradient(235deg,#66ff00,#010615,#c000b6)
+}
+.box:nth-child(32):before,
+.box:nth-child(32):after
+{
+    background: linear-gradient(235deg,#66ff00,#010615,#c000b6)
+}
+.box:nth-child(33):before,
+.box:nth-child(33):after
+{
+    background: linear-gradient(235deg,#66ff00,#010615,#c000b6)
+}
+.box .content
+{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 90px;
+    background: rgba(0,0,0,0.4 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.box:hover .content
+{
+    opacity: 1;
+}
+.box .content h2
+{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.box .content h2 span
+{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
