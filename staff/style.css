@@ -203,6 +203,11 @@ body
 {
     background: linear-gradient(235deg,#ff5e00,#010615,#0300c7)
 }
+.box:nth-child(26):before,
+.box:nth-child(26):after
+{
+    background: linear-gradient(235deg,#ff5e00,#010615,#0300c7)
+}
 
 .box:nth-child(27):before,
 .box:nth-child(27):after
