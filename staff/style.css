@@ -183,6 +183,11 @@ body
 {
     background: linear-gradient(235deg,#7b0ca7,#010615,#3532ff)
 }
+.box:nth-child(22):before,
+.box:nth-child(22):after
+{
+    background: linear-gradient(235deg,#7b0ca7,#010615,#3532ff)
+}
 .box:nth-child(23):before,
 .box:nth-child(23):after
 {
@@ -226,6 +231,11 @@ body
 }
 .box:nth-child(32):before,
 .box:nth-child(32):after
+{
+    background: linear-gradient(235deg,#66ff00,#010615,#c000b6)
+}
+.box:nth-child(33):before,
+.box:nth-child(33):after
 {
     background: linear-gradient(235deg,#66ff00,#010615,#c000b6)
 }
